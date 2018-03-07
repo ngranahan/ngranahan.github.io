@@ -8,7 +8,7 @@ body {
     background-color: #edf8fe;
 }
 .place-holder {
-    height: 600px;
+    height: 400px;
     background-color: #e4e2e1;
     margin: 100px 0;
 }
@@ -160,6 +160,11 @@ ul {
     width: 200px;
     border-radius: 50%;
 }
+
+/* PORTFOLIO STYLES */
+
+
+/* CONTACT STYLES */
 
 textarea, .input-text {
     width: 100%;
