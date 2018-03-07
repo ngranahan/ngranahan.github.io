@@ -1,6 +1,135 @@
+/* UNIVERSAL STYLES */
+
+
 * {
     font-family: 'Lato', sans-serif;
 }
+body {
+    background-color: #edf8fe;
+}
+.place-holder {
+    height: 600px;
+    background-color: #e4e2e1;
+    margin: 100px 0;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+
+
+
+/* NAV & JUMBOTRON STYLES */
+
+
+.jumbotron {
+    background: #313332;
+    height: 800px;
+    padding-top: 0;
+}
+.navbar-inverse {
+    background: none;
+    border: none;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: rgb(253, 161, 128);
+    background: none;
+    font-size: 1.5em;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
+    color: rgb(253, 161, 128);
+}
+
+/*  -- HEADER UI UNIVERSAL STYLES --  */
+
+h1, h2 {
+    display: inline-block;
+    -webkit-display: -webkit-inline-box;
+    padding: 30px;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+.bkg-offset {
+    background-color: #282a29;
+    width: 100%;
+    height:80%;
+    left: 20px;
+    top: 42px;
+}
+.header-main {
+    border: 2px solid #edf8fe;
+    color: #edf8fe !important;
+}
+.header-secondary {
+    border: 2px solid rgb(253, 161, 128);
+    color: rgb(253, 161, 128);
+}
+
+/* -- HEADER UI ELEMENT SPECIFIC STYLES -- */
+
+/* JUMBOTRON SECTION */
+
+/* Home Page */
+.name {
+    top: 60px;
+    left: 25%;
+}
+.design {
+    top: 280px;
+    left: 250px;
+}
+.dev {
+    top: 355px;
+    left: 630px;
+}
+.amp {
+    color: rgba(253, 161, 128, .6);
+    position: absolute;
+    font-size: 14em;
+    left: 530px;
+    top: 260px;
+}
+
+/* MAIN CONTENT SECTION */
+
+/* Home Page */
+
+.about {
+    left: 50%;
+    transform: translatex(-50%);
+    margin: 0;
+}
+
+/* For Portfolio and Contact pages */
+
+.portfolio, .contact {
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.jumbotron-secondary h1 {
+    color: #edf8fe;
+    margin-top: 90px;
+}
+
+.jumbotron.jumbotron-billboard.jumbotron-secondary {
+    height: 400px;
+}
+
+/* -- END HEADER STYLES -- */
+
+
+
+/* MAIN CONTENT STYLES */
 
 ul {
     list-style: none;
@@ -9,83 +138,47 @@ ul {
 }
 
 .skills {
-    margin-top: 40px;
-}
-.jumbotron {
-    background: rgb(253, 192, 164) url("../images/clouds-whiteout.jpg") no-repeat center;
-    height: 600px;
-    padding-top: 0;
-    border-bottom: 4px solid rgb(253, 161, 128);
+    margin-top: 80px;
 }
 
-.navbar-inverse {
-    background: none;
-    border: none;
-}
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border: none;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: rgb(253, 161, 128);
-    background: none;
-    font-size: 1.5em;
-}
-
-.jumbotron h1 {
-    color: #696969;
+.main-content {
+    background-color: #313332;
     margin-top: 200px;
-}
-
-.amp-front {
-    color: rgb(253, 220, 208);
-}
-.amp-back {
-    color: rgb(253, 161, 128);
-    position: absolute;
-    left: 451px;
-}
-
-body {
-    background-color: #fbf7f3;
-}
-
-.about-me {
-    position: relative;
-    background-color: white;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    padding: 40px;
-    border-bottom: 4px solid rgb(253, 161, 128);
-}
-
-.headshot {
-    position: absolute;
-    top: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200px;
-    border-radius: 50%;
-    border: 4px solid #fbf7f3;
+    margin-bottom: 200px;
+    padding: 40px 60px;
+    box-shadow: 10px -10px rgb(253, 161, 128);
+    color: #edf8fe;
 }
 
 .bio {
-    margin-top: 120px;
-}
-.icon {
-    width: 60px;
-    margin: 40px 10px;
+    margin-top: 40px;
+    font-size: 1.2em;
+    padding: 0 20%;
 }
 
+.headshot {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+
+/* FOOTER STYLES */
+
 footer {
-    background-color: #e4e2e1;
-    height: 80px;
-    border-bottom: 15px solid dimgray;
-    line-height: 4.5;
+    background-color: #313332;
+    height: 180px;
+    border-bottom: 15px solid #282a29;
     color: rgb(146, 145, 145);
 }
 
-.relative {
-    position: relative;
+.icon {
+    width: 60px;
+    margin: 40px 10px 20px 10px;
 }
+
+.stackoverflow {
+    fill: pink;
+}
+
