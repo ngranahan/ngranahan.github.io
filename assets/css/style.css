@@ -18,6 +18,9 @@ body {
 .absolute {
     position: absolute;
 }
+.row {
+    margin-bottom: 15px;
+}
 
 
 
