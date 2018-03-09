@@ -21,6 +21,9 @@ body {
 .row {
     margin-bottom: 15px;
 }
+.img {
+    margin-bottom: 15px !important;
+}
 
 
 
@@ -68,9 +71,12 @@ h2 {
     left: 20px;
     top: 42px;
 }
-.header-main {
+.header-main-text {
     border: 2px solid #edf8fe;
     color: #edf8fe !important;
+}
+.header-main-wrap {
+    display: inline-block;
 }
 .header-secondary {
     border: 2px solid rgb(253, 161, 128);
@@ -82,24 +88,17 @@ h2 {
 /* JUMBOTRON SECTION */
 
 /* Home Page */
-.name {
-    top: 60px;
-    left: 25%;
-}
-.design {
-    top: 280px;
-    left: 250px;
-}
-.dev {
-    top: 355px;
-    left: 630px;
+
+.hero {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
 }
 .amp {
     color: rgba(253, 161, 128, .6);
-    position: absolute;
-    font-size: 14em;
-    left: 530px;
-    top: 260px;
+    font-size: 15em;
+    right: -15%;
+    top: -120%;
 }
 
 /* MAIN CONTENT SECTION */
@@ -202,4 +201,8 @@ footer {
 .stackoverflow {
     fill: pink;
 }
+
+
+/* MEDIA QUERIES */
+
 
