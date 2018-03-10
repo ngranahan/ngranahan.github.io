@@ -24,6 +24,15 @@ body {
 .img {
     margin-bottom: 15px !important;
 }
+.container {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+ul {
+    padding: 0;
+    margin-left: 0 !important;
+}
+
 
 
 
@@ -206,6 +215,9 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 768px) {
+    .jumbotron {
+        height: 700px;
+    }
     .amp {
         font-size: 12em;
         top: -100%;
@@ -215,5 +227,52 @@ footer {
     }
     h2 {
         font-size: 2em;
+    }
+    .row {
+        margin-bottom: 0;
+    }
+    .col-sm-6 {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .jumbotron {
+        height: 600px;
+    }
+    .hero {
+        top: 50px;
+    }
+    .amp {
+        font-size: 10em;
+        top: -110%;
+    }
+    h1, h2 {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    .bkg-offset {
+        height: 70%;
+        left: 12px;
+        top: 34px;
+    }
+    .main-content {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .headshot {
+        width: 150px;
+    }
+    .bio {
+        padding: 0;
+        font-size: 1em;
+    }
+    ul {
+        font-size: 1em;
     }
 }
