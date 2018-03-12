@@ -181,7 +181,8 @@ ul {
 .project-header {
     color: #313332;
     bottom: 10px;
-    left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* CONTACT STYLES */
@@ -240,6 +241,12 @@ footer {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 992px) {
+    .project-header h3 {
+        font-size: 1.5em;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .jumbotron {
         height: 700px;
@@ -291,6 +298,7 @@ footer {
     .main-content {
         margin-top: 100px;
         margin-bottom: 100px;
+        padding: 15px;
     }
     .headshot {
         width: 150px;
@@ -301,5 +309,10 @@ footer {
     }
     ul {
         font-size: 1em;
+    }
+    .contact-message {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
     }
 }
