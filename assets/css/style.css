@@ -147,9 +147,13 @@ ul {
     margin-left: 25%;
     font-size: 1.2em;
 }
+.skills-header {
+    border-bottom: solid 1px #edf8fe;
+    margin-top: 40px;
+}
 
-.skills {
-    margin-top: 80px;
+.skills-list {
+    margin-top: 40px;
 }
 
 .main-content {
@@ -164,7 +168,7 @@ ul {
 .bio {
     margin-top: 40px;
     font-size: 1.2em;
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 .headshot {
@@ -174,12 +178,18 @@ ul {
 
 /* PORTFOLIO STYLES */
 
+.project-header {
+    color: #313332;
+    bottom: 10px;
+    left: 40px;
+}
 
 /* CONTACT STYLES */
 
 textarea, .input-text {
     width: 100%;
     margin: 20px 0;
+    color: #313332;
 }
 
 .btn-group-lg>.btn, .btn-lg {
@@ -191,6 +201,22 @@ textarea, .input-text {
 .btn-group-lg>.btn:hover, .btn-lg:hover {
     background: #edf8fe;
     color: #313332;
+}
+.contact-message {
+    background: rgb(253, 161, 128);
+    margin: 40px;
+    padding: 40px;
+    font-size: 1.2em;
+    color:#313332;
+}
+.contact-message button {
+    color: #313332;
+    border-color: #313332;
+    margin-top: 20px;
+}
+.contact-message button:hover {
+    background: #313332;
+    color: #edf8fe;
 }
 
 /* FOOTER STYLES */
@@ -234,6 +260,7 @@ footer {
     .col-sm-6 {
         margin-bottom: 15px;
     }
+
 }
 
 @media only screen and (max-width: 580px) {
